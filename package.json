@@ -1,0 +1,31 @@
+{
+  "name": "embeddings3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.32",
+    "@langchain/core": "^0.2.31",
+    "@langchain/openai": "^0.2.10",
+    "@langchain/redis": "^0.0.5",
+    "d3-dsv": "2",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.18",
+    "redis": "^4.7.0",
+    "zod": "^3.23.8"
+  }
+}

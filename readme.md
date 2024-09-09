@@ -21,7 +21,7 @@ This Node.js application extracts and stores information from documents in a vec
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/rafatiburciorst/llm-rag-langchain-node.git
     cd your-repo
     ```
 
